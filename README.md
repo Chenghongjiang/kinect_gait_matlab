@@ -2,6 +2,7 @@
 
 **Instrumented Timed-Up-and-Go (iTUG) gait analysis from Kinect v2 skeletal tracking — MATLAB implementation**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22941738.svg)](https://doi.org/10.5281/zenodo.22941738)
 [![License: BSD-3-Clause](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)](LICENSE)
 [![MATLAB](https://img.shields.io/badge/MATLAB-R2016b%2B-orange.svg)](https://www.mathworks.com/)
 
