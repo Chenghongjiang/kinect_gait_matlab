@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "KinectTUG-Gait: Instrumented Timed-Up-and-Go gait analysis from Kinect v2 skeletal data"
+abstract: >-
+  A MATLAB toolbox that reproduces the gait-processing pipeline described in the
+  accompanying manuscript: load Kinect v2 skeleton tracking (25 joints), denoise
+  with a zero-phase 4th-order Butterworth low-pass (5 Hz, 30 fps), transform to a
+  subject-centred frame via PCA of the centre-of-mass displacement, automatically
+  segment the Timed-Up-and-Go (TUG) test into stand-up / walk / turn / sit-down,
+  detect gait events (heel-strike / toe-off) from the ankle forward (depth) trajectory,
+  and extract spatiotemporal gait parameters from a single representative
+  cycle (the "6-point method").
+authors:
+  - family-names: "[Your Family Name]"
+    given-names: "[Your Given Name]"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+keywords:
+  - gait analysis
+  - Kinect v2
+  - Timed Up and Go
+  - cerebral small vessel disease
+  - biomechanics
+license: BSD-3-Clause
+repository-code: "https://github.com/[your-username]/kinect_gait_matlab"
+url: "https://github.com/[your-username]/kinect_gait_matlab"
