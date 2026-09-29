@@ -1,0 +1,11 @@
+# Normalise line endings: LF in the repository and in every working copy, so
+# MATLAB sources, CSVs and Markdown stay byte-identical across platforms and
+# the diffs never get polluted by CRLF/LF churn.
+* text=auto eol=lf
+
+# Binary assets: never converted
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.xlsx binary
+*.mat binary
